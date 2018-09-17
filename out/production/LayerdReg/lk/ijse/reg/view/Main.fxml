@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="480.0" prefWidth="701.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9.0.1" fx:controller="lk.ijse.reg.controller.MainController">
+   <children>
+      <ImageView fx:id="imgmangeStu" fitHeight="106.0" fitWidth="107.0" layoutX="171.0" layoutY="163.0" onMouseClicked="#btnOnClickNav" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/icons8_Student_Male_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImgMangCourse" fitHeight="106.0" fitWidth="107.0" layoutX="407.0" layoutY="155.0" onDragDetected="#btnOnClickNav" onMouseClicked="#btnOnClickNav" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/icons8_Paper_100px.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="182.0" layoutY="293.0" text="Manage Student">
+         <font>
+            <Font name="Tw Cen MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="421.0" layoutY="293.0" text="Manage Course">
+         <font>
+            <Font name="Tw Cen MT Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

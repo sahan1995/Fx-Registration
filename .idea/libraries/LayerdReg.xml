@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="LayerdReg">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/LayerdReg.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
